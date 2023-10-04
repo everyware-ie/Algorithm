@@ -1,4 +1,4 @@
-package 현수;
+package phs00;
 
 import java.util.*;
 
