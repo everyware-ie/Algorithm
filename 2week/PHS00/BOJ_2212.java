@@ -21,10 +21,12 @@ public class BOJ_2212 {
             }
             Collections.sort(position);
 
+            // 센서간 거리 계산
             List<Integer> dis = new ArrayList<>();
             for(int i = 1; i < position.size(); i++){
                 dis.add(position.get(i) - position.get(i-1));
             }
+            // 거리차이의 최대값부터 K-1번 만큼 제거
             Collections.sort(dis);
             for(int i = 0; i < K-1; i++){
                 dis.remove(dis.size()-1);
