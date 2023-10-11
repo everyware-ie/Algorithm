@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+// 로프
 public class BOJ_2217 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
