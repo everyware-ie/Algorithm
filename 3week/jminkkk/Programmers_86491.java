@@ -1,4 +1,4 @@
-public class Programmers_1 {
+public class Programmers_86491 {
     public int solution(int[][] sizes) {
 
         int MaxW = 0, MaxH = 0;
