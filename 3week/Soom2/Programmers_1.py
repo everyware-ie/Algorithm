@@ -4,8 +4,7 @@ def solution(sizes):
     weight = []
 
     for size in sizes:
-        h, w = size
-        if h < w:
+        if size[0] < size[1]:
             height.append(size[0])
             weight.append(size[1])
         else:
@@ -14,4 +13,4 @@ def solution(sizes):
     return max(height) * max(weight)
 
 
-# print(solution([[60, 50], [30, 70], [60, 30], [80, 40]]))
+print(solution([[60, 50], [30, 70], [60, 30], [80, 40]]))
