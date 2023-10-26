@@ -1,3 +1,5 @@
+package JiEung2;
+
 import java.util.*;
 public class PG42862 {
     class Solution {
