@@ -3,7 +3,7 @@ package PHS00;
 import java.util.*;
 
 // 같은 숫자는 싫어
-public class Programmers_ {
+public class Programmers_12956 {
     public class Solution {
         public Stack<Integer> solution(int []arr) {
             Stack<Integer> answer = new Stack<>();
