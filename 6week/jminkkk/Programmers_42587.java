@@ -1,5 +1,6 @@
 package jminkkk;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
@@ -8,6 +9,8 @@ import java.util.Queue;
 public class Programmers_42587 {
     class Solution {
         public int solution(int[] priorities, int location) {
+            Map<Integer, Integer> map = new HashMap<>();
+            int[] arr = map.values().stream().mapToInt(i ->i).toArray();
             // 특정 프로세스가 몇번째로 실행
             Queue<Process> queue = new LinkedList<Process>();
             // 인덱스별 언제 실행
