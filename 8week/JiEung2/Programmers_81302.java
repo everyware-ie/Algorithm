@@ -1,3 +1,5 @@
+package JiEung2;
+
 public class Programmers_81302 {
     int[] dx = {-1,0,1,0};
     int[] dy = {0,1,0,-1};
