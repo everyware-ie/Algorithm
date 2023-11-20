@@ -47,9 +47,7 @@ public class Programmers_81302 {
             int nx = x+dx[i];
             int ny = y+dy[i];
             if(nx>=0 && nx<5 && ny>=0 && ny<5 && places[nx][ny]=='P' && (nx != curX || ny != curY)) {
-                if (Math.abs(nx - curX) + Math.abs(ny - curY) <= 2) {
-                    return 0;
-                }
+                return 0;
             }
         }
         return 1;
